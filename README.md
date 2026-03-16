@@ -52,7 +52,7 @@ Automated Execution (Windows)
 To start both the backend and frontend simultaneously, run the batch file located in the root directory:
 
 ```PowerShell
-.\run_project.bat
+.\Run.bat
 ```
 # Manual Execution
 If you prefer to run the services individually:

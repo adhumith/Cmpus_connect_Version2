@@ -1,0 +1,52 @@
+# --- General / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- Frontend (Vite + React) ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# --- Backend (FastAPI / Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.lib/
+parts/
+sdist/
+var/
+wheels/
+.python-version
+.pytest_cache/
+
+# --- Environment & Sensitive Files ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Firebase Secrets ---
+# Ignore the Admin SDK JSON (contains private keys!)
+firebase-adminsdk.json
+# If you want to keep the logic but hide the config in firebase.js:
+# firebase.js 
+
+# --- Specific Python Scripts to Ignore ---
+add_admin.py
+check_db.py
+test_auth.py

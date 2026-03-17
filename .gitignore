@@ -44,7 +44,7 @@ wheels/
 # Ignore the Admin SDK JSON (contains private keys!)
 firebase-adminsdk.json
 # If you want to keep the logic but hide the config in firebase.js:
-# firebase.js 
+firebase.js 
 
 # --- Specific Python Scripts to Ignore ---
 add_admin.py
